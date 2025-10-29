@@ -23,12 +23,10 @@ Analisi comparativa sull’aspettativa di vita nei diversi Paesi, con focus sull
 6. Metrica 5: Predizione aspettativa di vita nei prossimi 10 anni
 7. Metrica 6: Confronto tra predizione e DB aggiornato al 2023: join di due tabelle e confronto
 
-Motivazione della scelta del Dataset
+---
+##  Motivazione della scelta del database
 Abbiamo scelto il dataset Life Expectancy perché rappresenta un tema universale e multidimensionale, che permette di esplorare in modo concreto come fattori economici, sociali e sanitari influenzino la qualità e la durata della vita nei diversi Paesi del mondo.
 
-
-
----
 
 ##  Dataset
 *Fonte:* [Kaggle – Life Expectancy Data](https://www.kaggle.com/datasets/maryalebron/life-expectancy-data)  
