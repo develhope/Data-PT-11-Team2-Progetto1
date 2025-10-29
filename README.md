@@ -25,6 +25,9 @@ Analisi comparativa sull’aspettativa di vita nei diversi Paesi, con focus sull
 
 Motivazione della scelta del Dataset
 Abbiamo scelto il dataset Life Expectancy perché rappresenta un tema universale e multidimensionale, che permette di esplorare in modo concreto come fattori economici, sociali e sanitari influenzino la qualità e la durata della vita nei diversi Paesi del mondo.
+
+
+
 ---
 
 ##  Dataset
