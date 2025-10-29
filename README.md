@@ -36,8 +36,8 @@ Abbiamo scelto il dataset Life Expectancy perché rappresenta un tema universale
 
 *Fonte:* [Our World Data - Life Expectancy]
 *Contenuto principale:*
-193 Paesi, anni 1900–2023
-Variabili chiave: Life expectancy (men), Life expectancy (women), GDP, Schooling, Status, Total expenditure, BMI, ecc.
+- 193 Paesi, anni 1900–2023
+- Variabili chiave: Life expectancy (men), Life expectancy (women), GDP, Schooling, Status, Total expenditure, BMI, ecc.
 
 ---
 
