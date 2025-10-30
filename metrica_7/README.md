@@ -64,6 +64,13 @@ Nel complesso, il trend resta **positivo ma diseguale**, utile per indirizzare p
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/develhope/Data-PT-11-Team2-Progetto1/main/metrica_5/GRAFICO_predizione_vita_2023.png" 
+       alt="Grafico predizione vita 2023" width="600">
+</p>
+
+
+
 ## Query SQL completa
 
 ```sql
