@@ -65,7 +65,7 @@ Nel complesso, il trend resta **positivo ma diseguale**, utile per indirizzare p
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/develhope/Data-PT-11-Team2-Progetto1/main/metrica_5/GRAFICO_predizione_vita_2023.png" 
+  <img src="https://github.com/develhope/Data-PT-11-Team2-Progetto1/blob/main/metrica_7/GRAFICO_L'aspettativa%20di%20vita_%20Aumentata%20o%20diminuita.png" 
        alt="Grafico predizione vita 2023" width="600">
 </p>
 
