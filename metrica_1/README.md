@@ -38,3 +38,40 @@ di sviluppo socioeconomico.
 
 ---
 
+SQL Query
+
+SELECT
+  'Global' AS Level,
+  'All countries' AS Category,
+  ROUND(AVG("Life expectancy (men)"), 2)   AS avg_men,
+  ROUND(AVG("Life expectancy(women)"), 2)  AS avg_women,
+  ROUND(ABS(AVG("Life expectancy(women)") - AVG("Life expectancy (men)")), 2) AS gender_gap
+FROM life_expectancy
+WHERE "Life expectancy (men)" IS NOT NULL
+  AND "Life expectancy(women)" IS NOT NULL
+
+UNION ALL
+
+SELECT
+  'By Country' AS Level,
+  Country      AS Category,
+  ROUND(AVG("Life expectancy (men)"), 2)   AS avg_men,
+  ROUND(AVG("Life expectancy(women)"), 2)  AS avg_women,
+  ROUND(ABS(AVG("Life expectancy(women)") - AVG("Life expectancy (men)")), 2) AS gender_gap
+FROM life_expectancy
+WHERE "Life expectancy (men)" IS NOT NULL
+  AND "Life expectancy(women)" IS NOT NULL
+GROUP BY Country
+
+UNION ALL
+
+SELECT
+  'By Status' AS Level,
+  Status      AS Category,
+  ROUND(AVG("Life expectancy (men)"), 2)   AS avg_men,
+  ROUND(AVG("Life expectancy(women)"), 2)  AS avg_women,
+  ROUND(ABS(AVG("Life expectancy(women)") - AVG("Life expectancy (men)")), 2) AS gender_gap
+FROM life_expectancy
+WHERE "Life expectancy (men)" IS NOT NULL
+  AND "Life expectancy(women)" IS NOT NULL
+GROUP BY Status;
