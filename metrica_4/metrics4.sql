@@ -12,15 +12,3 @@ GROUP BY Country
 ORDER BY life_men_avg ASC
 LIMIT 10;
 
-
-PIL alto ma vita bassa
-
-SELECT
-  Country, Year, GDP, "Life expectancy (men)" AS life_men
-FROM life_expectancy
-WHERE GDP >= 30000
-  AND "Life expectancy (men)" < 72
-ORDER BY GDP DESC, life_men ASC
-LIMIT 20;
-
-
