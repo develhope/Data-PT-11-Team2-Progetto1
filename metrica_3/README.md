@@ -36,6 +36,13 @@ Identificare i **10 Paesi con il maggiore gap positivo di aspettativa di vita** 
 
 ---
 
+<p align="center">
+  <img src="https://github.com/develhope/Data-PT-11-Team2-Progetto1/blob/main/metrica_3/LIFE%20EXPENTANCY%20TABELLE%20E%20GRAFICI%20-%20paesi%20in%20cui%20le%20donne%20vivono%20di%20piu.pdf" 
+       alt="Grafico predizione vita 2023" width="600">
+</p>
+
+---
+
 ### Query SQL
 
 ```sql
